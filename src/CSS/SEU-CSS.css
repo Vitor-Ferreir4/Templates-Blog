@@ -1,0 +1,22 @@
+/* Façam o css de vcs nessa área, ela pode ser expandiada.*/
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo h1{
+    color: red;
+}
+
+
+
+/* Façam as médias querrys para a maior quantidade de resoluções que conseguirem */
+
+@media screen and (max-width: 600px) {
+    .container h1{
+        font-size: 20px;
+    }
+}
